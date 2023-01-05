@@ -20,7 +20,7 @@ class ViewController: UIViewController {
        
         //Счет = 0, после загрузки
         score = 0
-        ActiveLabel.text = "Значение счетчика: \(score)"
+        ActiveLabel.text = "Значение счетчика : \(score)"
                 
     }
 
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
         score = score + 1
         
-        ActiveLabel.text = "Значение счетчика: \(score)"
+        ActiveLabel.text = "Значение счетчика : \(score)"
         
     }
     
